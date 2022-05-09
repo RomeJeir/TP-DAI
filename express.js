@@ -21,8 +21,8 @@ app.listen(PORT,(err) => {
 	console.log("Server listening on PORT", PORT);
 })
 
-
 let num_max = 25
+
 let cant_cartones = numero_aleatorio(num_max);
 let bingo_max = 25;
 function bin_rand(){
@@ -112,4 +112,4 @@ Dinámica del juego:
 
 El juego comienza llamando al endpoint *iniciar_juego* que crea los cartones.
 Los usuarios piden los cartones con su nombre (con *obtener_carton*).
-Se sacan números con *sacar_numero* hasta que el sistema detecta qué cartón obtuvo el bingo mostrando el nombre del jugador que ganó o diciendo que quedó vacante si el cartón ganador no fué reclamado por un jugador.*/ djsadjsahdaksj
+Se sacan números con *sacar_numero* hasta que el sistema detecta qué cartón obtuvo el bingo mostrando el nombre del jugador que ganó o diciendo que quedó vacante si el cartón ganador no fué reclamado por un jugador.*/
