@@ -97,6 +97,11 @@ app.get("/sacar_numero", (req,res) => {
     res.send()
 })
 
+app.get("/", (req,res) =>{
+let cart_nums = carder();
+return cart_nums;
+})
+
 /*Bingo
 
 Crear un servidor API que represente el juego del Bingo.
