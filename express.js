@@ -97,9 +97,8 @@ app.get("/sacar_numero", (req,res) => {
     res.send()
 })
 
-app.get("/", (req,res) =>{
-let cart_nums = carder();
-return cart_nums;
+app.get("/repartir_numeros", (req,res) =>{
+    
 })
 
 /*Bingo
